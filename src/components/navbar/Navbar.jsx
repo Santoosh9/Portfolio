@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { FiMenu } from 'react-icons/fi';
 import { MdClose } from 'react-icons/md';
-// import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
-import { logo } from '../../assets/index';
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {
@@ -11,11 +9,13 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div className=" p-16">
-        <img
-          className=" h-20 w-[89%]  rounded-full mt-1 mb-2"
-          src={logo}
-          alt="logo"
-        />
+        <p className=" text-2xl font-bold text-designColor">
+          SANT
+          <span className=" text-gray-50 ">
+            OO
+          </span>
+          SH
+        </p>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -69,22 +69,7 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              {/* <div className="flex flex-col gap-4">
-                <h2 className="text-base uppercase font-titleFont mb-4">
-                  Find me in
-                </h2>
-                <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF href="https://www.facebook.com/santosh.gajurel.71" />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
-                </div>
-              </div> */}
+
               <span
                 onClick={() => setShowMenu(false)}
                 className="absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
