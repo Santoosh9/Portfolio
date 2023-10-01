@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import { RiTwitterXFill } from 'react-icons/ri';
 import { cnt } from '../../assets/index';
 
 const ContactLeft = () => {
@@ -35,7 +36,7 @@ const ContactLeft = () => {
             <FaFacebookF />
           </a>
           <a href="https://twitter.com/Santoosh_G" className="bannerIcon">
-            <FaTwitter />
+            <RiTwitterXFill />
           </a>
           <a
             href="https://www.linkedin.com/in/santosh-gajurel-06a557200/"

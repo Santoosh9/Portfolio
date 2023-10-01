@@ -14,8 +14,8 @@ const Left = () => {
 
   const downloadPdf = () => {
     const myCv = document.createElement('a');
-    myCv.href = '../../../public/Santosh Gajurel.pdf';
-    myCv.download = '../../../public/Santosh Gajurel.pdf';
+    myCv.href = '../../../public/cv/Santosh Gajurel.pdf';
+    myCv.download = '../../../public/cv/Santosh Gajurel.pdf';
     myCv.style.display = 'none';
     document.body.appendChild(myCv);
     myCv.click();
