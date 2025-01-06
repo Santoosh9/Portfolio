@@ -15,6 +15,13 @@ const Education = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Education </h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+
+        <AboutCard
+            title="MSC Computing"
+            subTitle="York St John University   (2024 - 2025)"
+            result="Running"
+            des="York St John University, London, England"
+          />
           <AboutCard
             title="BSc (Hons) Computing"
             subTitle="London Metropolitan University  (2019 - 2022)"

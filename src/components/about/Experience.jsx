@@ -14,6 +14,13 @@ const Experience = () => {
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+
+        <AboutCard
+            title="Information Technology Engineer"
+            subTitle=" Nabil Bank  (Aprl 2024 - July 2024)"
+            result="Kathmandu Durbarmarg"
+            des="I am an experienced Information Technology Engineer at Nabil Bank with a strong foundation in software engineering and IT infrastructure management. I specialize in problem-solving, error analysis, DNS management, and IT service management, ensuring seamless and secure operations. My software engineering skills enable me to design, develop, and implement efficient solutions that align with business objectives. I am passionate about delivering innovative technical solutions, enhancing system reliability, and driving digital transformation to support organizational goals."
+          />
           <AboutCard
             title="Web Developer"
             subTitle=" RR Shree School of Technology (October 5 2023 – March 15 2024)"
@@ -45,32 +52,7 @@ condition and  Understanding the workflow of React JS"
           />
         </div>
       </div>
-      {/* <div>
-        <div className="flex flex-col gap-4">
-          
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
-        </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <AboutCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
-          />
-          <AboutCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
-          <AboutCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
-        </div>
-      </div> */}
+     
     </motion.div>
   );
 };
