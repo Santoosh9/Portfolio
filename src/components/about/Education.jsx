@@ -29,17 +29,12 @@ const Education = () => {
             des="Islington College  Kamalmarg, Kamalpokhari, Kathmandu"
           />
           <AboutCard
-            title="2 Management (CS) "
+            title="+2 Computer Science "
             subTitle="National Examinations Board  (2017 - 2018)"
             result="Completed"
             des="Swati Sadan (SS) College"
           />
-          <AboutCard
-            title="SEE"
-            subTitle="National Examinations Board  (2016)"
-            result="Completed"
-            des="Shree Niranjana H.S.S "
-          />
+          
         </div>
       </div>
       {/* part Two */}

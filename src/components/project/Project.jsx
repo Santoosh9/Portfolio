@@ -23,11 +23,11 @@ const Project = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title=" E-learning Website"
-          des="E-learning is  E-commerce website where user can view all types of TU qustions Tuition and LockSewa qustions. In the frontend part I use react and tailwind Css for making this website. I use Redux for state management and there is lot of frontend feature I used."
+          title="Travel Website"
+          des="Travel website with annimation "
           src={ecommerce}
-          githubLink="https://github.com/Santoosh9/ecommerce-project.git"
-          published="https://smartgk-webapp.vercel.app/"
+          githubLink="https://github.com/Santoosh9/Portfolio.git"
+          published="https://pligrims.vercel.app/"
         />
         <ProjectsCard
           title="Online Shoes Store"
@@ -47,12 +47,12 @@ const Project = () => {
           published="https://master--recipe-finder-apps.netlify.app/"
         />
 
-        <ProjectsCard2
-          title="E-commerce Website"
-          des="Online food ordering system An online food ordering system is a web-based 
-      application. It is a full stack application which is my final year project (FYP). In front end I use react JS backend I use NodeJS and for database I use MongoDB"
-          src={restromeal}
-          githubLink="https://github.com/Santoosh9/onlineFoodOrdering-RestroMeal-.git"
+<ProjectsCard
+          title=" E-learning Website"
+          des="E-learning is  E-commerce website where user can view all types of TU qustions Tuition and LockSewa qustions. In the frontend part I use react and tailwind Css for making this website. I use Redux for state management and there is lot of frontend feature I used."
+          src={ecommerce}
+          githubLink="https://github.com/Santoosh9/ecommerce-project.git"
+          published="https://smartgk-webapp.vercel.app/"
         />
         <ProjectsCard2
           title="Library management system"
