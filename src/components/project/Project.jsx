@@ -5,7 +5,7 @@ import {
   recipes,
   shoes,
   libary,
-  restromeal,
+  image,
 } from '../../assets/index';
 import ProjectsCard, { ProjectsCard2 } from './ProjectsCard';
 
@@ -26,7 +26,7 @@ const Project = () => {
           title="Travel Website"
           des="Travel website with annimation "
           src={ecommerce}
-          githubLink="https://github.com/Santoosh9/Portfolio.git"
+          githubLink="https://github.com/Santoosh9/Pligrims-holidays"
           published="https://pligrims.vercel.app/"
         />
         <ProjectsCard
