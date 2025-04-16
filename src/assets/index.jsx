@@ -6,5 +6,6 @@ import shoes from './img/shose.jpg';
 import libary from './img/libary.jpg';
 import restromeal from './img/restromeal.jpg';
 import cnt from './img/cnt.jpg';
+import travel1 from './img/travel1.jpg';
 
-export { logo, profile, ecommerce, recipes, shoes, libary, restromeal, cnt };
+export { logo, profile, ecommerce, recipes, shoes, libary, restromeal, cnt, travel1 };

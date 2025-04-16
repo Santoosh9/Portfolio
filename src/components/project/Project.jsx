@@ -5,7 +5,8 @@ import {
   recipes,
   shoes,
   libary,
-  image,
+  travel1,
+
 } from '../../assets/index';
 import ProjectsCard, { ProjectsCard2 } from './ProjectsCard';
 
@@ -24,8 +25,9 @@ const Project = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Travel Website"
-          des="Travel website with annimation "
-          src={ecommerce}
+          des="Pilgrims Travels is a lightweight and interactive travel website built using React.js and styled with SCSS for a clean and modern user interface.
+           Smooth animations are integrated using CSS transitions and animation libraries to enhance user experience across pages like destinations, bookings, and contact. "
+          src={travel1}
           githubLink="https://github.com/Santoosh9/Pligrims-holidays"
           published="https://pligrims.vercel.app/"
         />
