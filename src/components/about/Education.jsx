@@ -19,7 +19,7 @@ const Education = () => {
         <AboutCard
             title="MSC Computing"
             subTitle="York St John University   (2024 - 2025)"
-            result="Running"
+            result="Completed"
             des="York St John University, London, England"
           />
           <AboutCard
