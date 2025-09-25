@@ -7,5 +7,6 @@ import libary from './img/libary.jpg';
 import restromeal from './img/restromeal.jpg';
 import cnt from './img/cnt.jpg';
 import travel1 from './img/travel1.jpg';
+import ai from './img/ai.png';
 
-export { logo, profile, ecommerce, recipes, shoes, libary, restromeal, cnt, travel1 };
+export { logo, profile, ecommerce, recipes, shoes, libary, restromeal, cnt, travel1, ai };
